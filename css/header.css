@@ -1,0 +1,94 @@
+.banner  {
+    width: 100vw;
+    background-color: #f2f2f2;
+}
+.infor_banner  {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.avtOrder  {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.information_order  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.information_order span  {
+    font-size: 20px;
+}
+
+.search {
+    padding-left: 10px;
+}
+.search:focus {
+    border: unset;
+}
+
+.giohang thead {
+	font-size: 15px;
+	
+}
+.giohang thead p {
+	text-align: center;
+	
+}
+.giohang .name {
+	color: black;font-size: 18px;font-weight: bold;margin-top: 17px;margin-bottom: 15px;margin-left: 142px;
+}
+.giohang img {
+	width: 120px;height: 120px; float: left;
+}
+.giohang .thanhtoan {
+	margin-top:20px;
+	float: right;
+}
+.giohang .thanhtoan h2 {
+	font-size: 20px;
+	padding-right: 100px;
+	color:  black;
+}
+.giohang .thanhtoan button {
+	padding: 10px 20px 10px 20px;
+	color:  black;
+	border: 1px solid black;
+}
+.giohang .thanhtoan button:hover {
+	background: black;
+	color: white;
+}
+
+
+
+a.shop:hover {
+	background-color: white;
+	color: #51b935;
+	border: 2px solid #51b935;
+	opacity:1;
+}
+a.shop ion-icon { 
+	font-size: 30px;
+	padding: 8px 10px;
+}
+
+a.shop {
+	background-color: #51b935;
+	border-radius: 50%;
+	color: #fff;
+
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
+
+
+.giohoang_vrw {
+	z-index: 9999;
+}

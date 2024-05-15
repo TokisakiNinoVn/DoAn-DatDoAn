@@ -1,0 +1,95 @@
+.container_nino {
+    width: 100%;
+}
+
+.total_sanpham {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 17px;
+    margin-bottom: 15px
+}
+
+td {
+    font-size: 20px;
+}
+td.img_name_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_preview_item {
+    height: 100px;
+    border-radius: 8px;
+}
+
+
+a.del_item ion-icon {
+    font-size: 34px;
+    color: black;
+}
+a.del_item ion-icon:hover {
+    color: red;
+}
+
+
+div.alert_giohang {
+    width: 100%;
+    height: 70vh;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(246, 247, 209, 0.555);
+    box-shadow: rgba(235, 108, 207, 0.534) 0px 5px 15px;
+    border-radius: 10px;
+}
+div.alert_giohang img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+span.alert_giohang {
+    margin: 20px 0 20px 0;
+}
+
+h3 {
+    margin: unset;
+}
+
+.thanhtoan {
+    display: flex;
+    justify-content: center;
+}
+
+.thanhtoan span {
+    font-size: 20px;
+}
+.thanhtoan a {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 20px;
+}
+
+.thanhtoan a button,  a button {
+    background-color: rgb(107, 212, 85);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+}
+
+
+.back_to_home {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+.back_to_home:hover button {
+    background-color: blueviolet;
+}
+

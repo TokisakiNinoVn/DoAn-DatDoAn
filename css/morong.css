@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+.main_content {
+    /* margin: 50px; */
+    background-color: rgba(250, 235, 215, 0.514);
+    border-radius: 10px;
+    padding: 40px;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.main_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.img_quan {
+    width: 150px;
+    border-radius: 50px;
+    margin-right: 20px;
+    border: 1px solid rgb(222, 90, 248);
+    box-shadow: rgba(0, 217, 255, 0.555) 0px 10px 20px, rgba(255, 0, 0, 0.692) 0px 6px 6px;
+}
+.content_infor {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 185, 110);
+    padding: 20px;
+    border-radius: 10px;
+}
+.ten_quan {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 20px;
+
+}
+
+
+
+.map_quan {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.img_map_quan {
+    width: 100%;
+    border-radius: 10px;
+}
+.link_map {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    width: 100%;
+    background-color: rgb(255, 193, 116);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.link_map:hover {
+    background-color: rgb(252, 153, 33);
+}
+
+
+.link_to_more {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: rgba(140, 228, 41, 0.829);
+}
+.link_to_more:hover {
+    text-decoration: none;
+    background-color: rgba(228, 141, 70, 0.829);
+}
+
+.link_to_more ion-icon {
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+}

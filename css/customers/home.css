@@ -1,0 +1,145 @@
+
+body {
+    margin: 0 !important;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    /* justify-content: space-around; */
+    margin-bottom: 20px;
+    background-color: #831818;
+    padding: 5px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.main_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1120px;
+}
+.logo img {
+    height: 60px;
+    border-radius: 5px;
+}
+
+header ion-icon {
+    font-size: 24px;
+    color: white;
+    margin-right: 20px;
+}
+
+.search_product form {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+header input {
+    border: unset;
+    padding: 5px 10px;
+    width: 400px;
+    margin-right: 10px;
+}
+header input:focus {
+    outline: unset;
+}
+
+
+header button {
+    border: unset;
+    padding: 5px 16px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+}
+header button:hover {
+    background-color: bisque;
+}
+header button ion-icon {
+    color: rgb(230, 29, 230);
+    margin: 0;
+}
+
+
+
+select#category-select {
+    padding: 5px;
+    /* padding-right: 10px; */
+    border-radius: 3px;
+}
+
+select#category-select:focus {
+    outline: none;
+}
+select#category-select option {
+    background-color: rgb(204, 239, 253);
+    padding: 8px 12px;
+}
+
+
+
+
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 10px 30px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: rgb(250, 246, 240);
+    padding: 10px;
+    border-radius: 5px;
+}
+.product:hover {
+    /* background-color: rgba(155, 148, 148, 0.24); */
+    background: linear-gradient(to bottom, #e91414dc, #ff69b480);
+
+    box-shadow: rgba(243, 164, 164, 0.925) 0px 2px 8px 0px;
+}
+.product h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px auto;
+    margin-bottom: 5px;
+}
+
+.product p {
+    margin: 5px auto;
+}
+
+.product input {
+    padding: 3px 5px;
+}
+.number_product:focus {
+    outline: none;
+}
+
+.buy_products {
+    margin: 10px 0px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(201, 243, 208);
+    border: unset;
+}
+.buy_products:hover {
+    background-color: rgb(80, 231, 126);
+}

@@ -1,0 +1,34 @@
+.header {
+    margin-bottom: 20px;
+}
+.container_nino {
+    width: 100vw;
+}
+
+.alert_search {
+    padding: 10px;
+    font-size: 18px;
+}
+
+#products {
+	padding-top: 30px;
+}
+#products img {
+	width: 100%;
+	height: 120px;
+}
+#products .sl {
+	width: 50px;
+}
+#products .name {
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 5px;
+}
+.order {
+	margin-top: -5px;    padding-left: 24px;
+    padding-right: 24px;color: black;
+	background: #a6f79e;
+	font-weight: bold;
+}

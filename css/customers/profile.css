@@ -1,0 +1,102 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    border: 1px solid rgba(85, 85, 85, 0.308);
+    border-radius: 2px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#profileForm {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+div.span_title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.span_title .title1 {
+    font-size: 20px;
+}
+.change_info {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin: auto auto 20px auto;
+}
+.left_change {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+td {
+    padding: 10px;
+}
+
+.akwau {
+    float: right;
+}
+
+.left_change input {
+    padding: 5px;
+    border: 1px solid pink;
+}
+.left_change input:focus {
+    outline: none;
+}
+
+.right_change .avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right_change img {
+    border-radius: 50%;
+    width: 150px;
+    margin-bottom: 20px;
+    border: 3px double pink;
+}
+
+.btn_save {
+    width: 100px;
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgb(243, 243, 243);
+    color: rgb(250, 67, 235);
+    border: 1px solid pink;
+}
+
+.back_to_home {
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: rgb(243, 243, 243);
+    color: rgb(250, 67, 235);
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_save:hover, .back_to_home:hover {
+    background-color: rgb(224, 167, 241);
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}

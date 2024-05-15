@@ -1,0 +1,60 @@
+.ban:hover {
+    cursor: pointer ;
+}
+.table:hover ion-icon {
+    color: coral;
+}
+.table:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.name i{
+    color: #473535;
+    
+}
+.active-ban{
+    color:#25B735;
+}
+.ban:hover{
+    cursor: pointer ;
+}
+.table:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+
+.menu {
+    color: black;
+    background: #96f79e;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.menu:hover{
+    background: #0ee632;
+}
+
+
+.back_home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(227, 75, 45);
+    width: 120px;
+
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+.back_home:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.back_home a {
+    color: white;
+    text-decoration: none;
+}

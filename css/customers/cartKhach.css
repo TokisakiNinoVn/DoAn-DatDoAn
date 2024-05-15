@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.active {
+    display: flex !important;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    width: 90vw;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td {
+    padding: 10px 20px;
+}
+.text_boss {
+    font-weight: bold;
+}
+
+
+.delete_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px 10px;
+    background-color: rgba(255, 123, 0, 0.74);
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    border: unset;
+}
+.delete_product:hover {
+    background-color: rgb(255, 123, 0);
+}
+
+.navbar_card {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.back_home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(227, 75, 45);
+
+}
+.back_home a {
+    color: white;
+    text-decoration: none;
+}
+
+.view_thanhtoan {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(227, 75, 45);
+    border: unset;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.main_form_thanhtoan {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.658);
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.add_form h1 {
+    margin: 0 auto auto 20px;
+    padding-top: 20px;
+}
+
+.add_form {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 60%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(221, 92, 233, 0.39) 0px 7px 29px 0px;
+    position: relative;
+}
+
+.form_thanhtoan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    margin: auto;
+
+}
+
+.left_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;
+    margin: auto 20px;
+}
+
+.qr_image {
+    width: 400px;
+    display: none;
+    border-radius: 3px;
+}
+a.download_image {
+    text-decoration: none;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: rgb(212, 67, 0);
+    border-radius: 3px;
+    color: white;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+a.download_image:hover {
+    background-color: rgb(37, 250, 37);
+
+}
+a.download_image ion-icon {
+    margin-right: 10px;
+}
+
+
+
+
+.right_form {
+    padding: 10px 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+.right_form select {
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.right_form span,
+.right_form label {
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.options_pay {
+    display: none;
+}
+
+.btn_qiua {
+    margin-top: 20px;
+    padding: 10px 10px;
+    border: unset;
+    background-color: rgb(6, 167, 41);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.btn_qiua:hover {
+    background-color: rgba(8, 136, 93, 0.596);
+}
+.cancel_pay {
+    text-align: center;
+    background-color: rgb(212, 67, 0);
+}
+
+.hidden {
+    display: none !important;
+    
+}
+
+.icon_close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.icon_close:hover {
+    background-color: rgb(255, 92, 92);
+}

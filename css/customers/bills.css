@@ -1,0 +1,58 @@
+table {
+    width: 90vw;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td {
+    padding: 10px 20px;
+    text-align: center;
+}
+.text_boss {
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+
+.ok_pay,
+.confilm_pay  {
+    padding: 5px 10px; 
+    border: unset;
+    border-radius: 3px;
+    color: rgb(85, 81, 81);
+    
+}
+.confilm_pay {
+    color: rgb(255, 255, 255);
+    background-color: rgb(245, 79, 37);
+    font-weight: bold;
+}
+.confilm_pay:hover {
+
+    background-color: rgb(0, 243, 0);
+
+}
+
+.back_home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(227, 75, 45);
+    width: 100px;
+
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+}
+.back_home:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.back_home a {
+    color: white;
+    text-decoration: none;
+}

@@ -33,7 +33,7 @@ The login page will open, and you can begin using the food ordering website.
 ### Step 5: Run: Click "Web" on UI Laragon and move to file "..\views\layouts\login.php"
 
 
-# Previews
+# 🌠 Previews
 ## 📌 Login
 ![Preview Images](./ReadmePreview/images/preview(5).png)
 ## 📌 Admin UI

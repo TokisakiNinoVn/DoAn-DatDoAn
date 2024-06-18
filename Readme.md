@@ -1,4 +1,4 @@
-# Food Ordering Website - Installation Guide
+# 🍀 Food Ordering Website - Installation Guide 🍀
 
 # 🌠 With XAMPP
 ## Step 1: Edit the Configuration File `config.php`
@@ -26,28 +26,36 @@ After editing and saving the `config.php` file, you can start the application by
 The login page will open, and you can begin using the food ordering website.
 
 # 🌠 With Laragon
-## Step 1: Start Laragon
-## Step 2: Create Database 
-## Step 3: Import Database to Laragon
-## Step 4: Move project to folder "....\laragon\www" of laragon
-## Step 5: Run: Click "Web" on UI Laragon and move to file "..\views\layouts\login.php"
+### Step 1: Start Laragon
+### Step 2: Create Database 
+### Step 3: Import Database to Laragon
+### Step 4: Move project to folder "....\laragon\www" of laragon
+### Step 5: Run: Click "Web" on UI Laragon and move to file "..\views\layouts\login.php"
 
 
 # Previews
+## 📌 Login
 ![Preview Images](./ReadmePreview/images/preview(5).png)
+## 📌 Admin UI
 ![Preview Images](./ReadmePreview/images/preview(6).png)
+## 📌 Home UI
 ![Preview Images](./ReadmePreview/images/preview(1).png)
+## 📌 Cart UI
 ![Preview Images](./ReadmePreview/images/preview(2).png)
+## 📌 Pay UI
 ![Preview Images](./ReadmePreview/images/preview(3).png)
+## 📌 Profile User UI
 ![Preview Images](./ReadmePreview/images/preview(4).png)
+## 🎊 There are many other interfaces, you can try and explore more.....
 
 # 🌠 Thank you for reading. 😍🥰
 ✨ Made by <a href="https://nino.is-a.dev/">@TokisakiNinoVn</a>.
 
 ✨ Any question please contact <a href="https://nino.is-a.dev/MyOfficialWebsite/">@TokisakiNinoVn</a>.
 
-<a href="https://nino.is-a.dev/">
-  <img src="./ReadmePreview/images/TokisakiNino.jpg" style="border-radius: 50%;" alt="Hình ảnh minh họa">
+<a align="center" href="https://nino.is-a.dev/">
+  <img align="center" src="./ReadmePreview/images/TokisakiNino.jpg" style="border-radius: 50%;" alt="Hình ảnh minh họa">
 </a>
 
+<p align="center">🍀🍀🍀 </p>
 
